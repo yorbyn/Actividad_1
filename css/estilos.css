@@ -25,7 +25,7 @@ img {
 .contenido-principal {
     display: flex;
     padding: 0 40px;
-    border: 1px solid black;
+    border: 1px solid black; /* ignorar xd prueba de borde :v*/
 }
 
 /* se modifica el relleno de la etiqueta h1 de la clase titulo */
