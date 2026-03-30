@@ -9,7 +9,7 @@ p {
     font-size: 17px;
 }
 
-/* */
+/* Es el contedor de todos los datos principales*/
 .contenedor-principal {
     background-color : white;
     width: 1700;
@@ -28,14 +28,63 @@ img {
     border: 1px solid black;
 }
 
-/* */
+/* se modifica el relleno de la etiqueta h1 de la clase titulo */
 .titulo h1{
     padding-top: 40px;
     padding-left: 40px;
     margin: 0;
 }
 
+/* modifica la clase menu para que sea visible el borde y su ancho*/
+.menu {
+    border: solid;
+    width: 200px;
+    border-width: 1px;
+}
 
+/* modifica la etiqueta h3 en menu */
+.menu h3 {
+    padding: 10px 15px;
+    margin: 0;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+} 
+
+/* modifica el margen de separación superior de las etiquetas li en 10 pixeles*/
+.menu-contenido li {
+    margin-top: 10px;
+}
+
+/* modifica el titulo de la carta el color, lo deja en que no tiene margen a su alrededor, el relleno alrededor del texto, y la aliniacion del texto*/
+.card h2 {
+    background-color: #ffc550;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+/* modifica la imagen dentro de la carta, el relleno de la parte superior, el modo de pantalla y la aliniacion de la imagen, el flex no se como funciona */
+.card-img {
+    padding-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+/* modifica el tamaño de la imagen */
+.img {
+    flex-basis: 60%;
+}
+
+/* modofica la carta, pone visible el borde, el tamaño del borde, color y relleno */
 .card {
-    border: 1px solid blue;
+    border: solid;
+    border-width: 1px;
+    background-color: #f4f3f4;
+    padding: 5px;
+}
+
+/* ajusta el margen izquierdo de la etiqueta p dentro de la carta y nose que hace el flex basis xd*/
+.card-img p {
+    margin-left: 3px;
+    flex-basis: 40%;
 }
