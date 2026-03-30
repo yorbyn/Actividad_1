@@ -1,0 +1,41 @@
+/* Con background-color se hace */
+body {
+    background-color: #fec356;
+}
+
+/* Es la divion de las lineas de texto y el tamaño de fuente*/
+p {
+    line-height: 20px;
+    font-size: 17px;
+}
+
+/* */
+.contenedor-principal {
+    background-color : white;
+    width: 1700;
+    margin: 80px ;
+}
+
+/* Las imagenes se deja con un ancho de 100%?? :v*/
+img {
+    width: 100%;
+}
+
+/* es el contenedor principal, modifica el tipo de pantalla y el tamaño del relleno*/
+.contenido-principal {
+    display: flex;
+    padding: 0 40px;
+    border: 1px solid black;
+}
+
+/* */
+.titulo h1{
+    padding-top: 40px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+
+.card {
+    border: 1px solid blue;
+}
